@@ -1,5 +1,9 @@
 .App {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
   text-align: center;
+  padding: 2rem 6rem;
 }
 
 .App-logo {
@@ -35,4 +39,39 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+/* custom */
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.output-data {
+  min-height: 100px;
+  min-width: 170px;
+  border: 1px solid gray;
+  text-align: left;
+  color: gray;
+}
+
+textarea {
+  height: 100px;
+  min-width: 170px;
+}
+
+button {
+  width: 100px;
+  margin: auto;
 }
